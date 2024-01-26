@@ -1,0 +1,25 @@
+
+
+
+.card-produto {
+    background-color: #A9D3FF;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 30vw;
+}
+
+.imagem-produto {
+    background-color: white;
+    padding: 10px;
+}
+
+.descricao-produto {
+    padding-top: 10px;
+}
+
+.botoes-produto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
