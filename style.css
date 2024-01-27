@@ -1,11 +1,9 @@
-
-
-
 .card-produto {
     background-color: #A9D3FF;
     padding: 20px;
+    margin: 1.5vh 0;
     border-radius: 10px;
-    min-width: 30vw;
+    min-width: 20vw;
 }
 
 .imagem-produto {
@@ -13,8 +11,15 @@
     padding: 10px;
 }
 
+.imagem-produto img {
+    height: 40vh;
+    object-fit: contain;
+    width: auto;
+}
+
 .descricao-produto {
     padding-top: 10px;
+    min-height: 20vh;
 }
 
 .botoes-produto {
